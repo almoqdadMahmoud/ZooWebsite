@@ -15,7 +15,7 @@
 .navbar {
     width: 100%;
     height: 75px;
-    background-color: transparent;
+    background-color: #343A40;
     margin: auto;
     position: fixed;
     top: 0px;
@@ -133,6 +133,7 @@ select {
 
 .subtitle h3 {
     margin-top: 30px;
+    width: 60%;
 
 }
 
@@ -248,12 +249,17 @@ select {
     text-align: center;
 }
 
+.subtitle h2 {
+    width: 80%;
+}
+
 .animals-div-parent {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 3rem;
 }
 
 .images1 img {
@@ -364,3 +370,29 @@ select {
     margin-bottom: 1rem;
     background-color: #17a2b8;
 }
+
+.backgroundzebra {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.card-img-overlay {
+    position: absolute;
+    /* justify-content: center; */
+}
+
+/* .bg-white {
+    color: #343a40;
+    padding: 10px;
+    background-color: #fff
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700
+} */
