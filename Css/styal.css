@@ -228,7 +228,12 @@ select {
 .main3 {
     width: 100%;
     height: 400px;
-    background-color: #343a40;
+    background-color: #fff;
+    margin-top: 3pc;
+    font-style: italic;
+    font-size: 18px;
+    box-sizing: border-box;
+
 }
 
 .fonttitle {
@@ -241,4 +246,121 @@ select {
 .subtitle {
     width: 100%;
     text-align: center;
+}
+
+.animals-div-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.images1 img {
+
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.imaglion {
+
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.imaglion:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+
+}
+
+.animals2-div-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagJungleanimals {
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+
+.imagJungleanimals:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+
+}
+
+.car-parent {
+    width: 100%;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    justify-content: center;
+    display: flex;
+
+}
+
+.car-parent div {
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.card-element1 {
+    width: 18rem;
+    background-color: #ffc107;
+
+
+
+
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+
+.svg-image-path {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+.card-element2 {
+    width: 18rem;
+    margin-bottom: 1rem;
+    background-color: #28a745;
+
+
+}
+
+.card-element3 {
+    width: 18rem;
+    margin-bottom: 1rem;
+    background-color: #17a2b8;
 }
