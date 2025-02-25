@@ -37,7 +37,7 @@
 
 .container {
     width: 100%;
-    height: 400px;
+
     background-color: #eee;
     /* margin-left: 80px; */
     margin-top: 40px;
@@ -45,6 +45,8 @@
     /* position: relative; */
 
 }
+
+.container image {}
 
 .select-box {
 
@@ -88,14 +90,14 @@ select {
 
 .in-name {
     padding: 10px;
-    width: 250px;
+    width: 300px;
     border-radius: 10px;
     border: 3px solid #fff;
 }
 
 .email {
     position: absolute;
-    right: 300px;
+    right: 360px;
     bottom: 20px;
 
 }
@@ -402,6 +404,7 @@ select {
     font-weight: 500;
     line-height: 1.2;
     margin-bottom: .75rem;
+    font-weight: bold;
 }
 
 .zebra-email-input {
